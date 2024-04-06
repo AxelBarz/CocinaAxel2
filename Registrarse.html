@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/ffd7a4b8a7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="body.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="icon" href="form.png" type="png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="navegacion">Inicio</a>
+            <a href="#Contacto" class="navegacion">Contacto</a>
+            <a href="index.html" class="navegacion">Sucursales</a>
+            <a href="#Registrarse" class="navegacion">Registrarse</a>
+        </nav>
+        <span><h1>La cocina de Axel</h1></span>
+    </header>
+    <main>
+        <p>Si quiere saber las ultimas novedades y Informacion adicional que no se cuenta en las redes, completa el formulario y te llegara un correo con todas las novedades</p>
+        <form action="https://formspree.io/f/xgegnrkl" method="POST">
+            <h2>Formulario de registro</h2>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="Nombre" id="nombre" class="escribir" required placeholder="Ingrese su nombre..."><br><br>
+            
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="Apellido" id="apellido" class="escribir" required placeholder="Ingrese su apellido..."><br><br>
+            
+            <label for="gmail">Gmail: </label>
+            <input type="email" name="Gmail" id="gmail"  class="escribir" required placeholder="Ingrese su email..."><br><br>
+            
+            <label for="Provincia">Provincia: </label>
+            <input type="text" name="Provincia" id="Provincia"  class="escribir" placeholder="Ingrese su provincia"><br><br>
+            
+            <label for="pais">Nacionalidad: </label>
+            <input type="text" name="Nacion" id="pais" value="Argentina" class="escribir" ><br><br>
+            
+            <label for="edad">Fecha de nacimiento: </label>
+            <input type="date" name="Nacimiento" class="escribir" required id="fecha"><br><br>
+            
+            <label for="genero">Género: </label>
+            <input type="radio" name="Genero" value="Hombre" class="elegir">Hombre <input type="radio" name="genero" value="mujer" class="elegir">Mujer <input type="radio" name="genero" value="otros" class="elegir">Otros <br><br>
+            
+            <label for="Estudio">Estudios: </label>
+            <input type="checkbox" name="Estudios" value="1">Primarios <input type="checkbox" name="Estudios" value="1">Secundario <input type="checkbox" name="Estudios" value="3">Terciarios <input type="checkbox" name="Estudios" value="4">Universitario <input type="checkbox" name="Estudios" value="5">Otro <br><br>
+            
+            <input type="submit" value="Enviar formulario" class="enviar"><input type="reset" class="enviar"><br><br>
+            <hr>
+            
+        </form>
+    </main>
+    <footer>
+        <p id="derechos">Derechos reservados @2024</p>
+        <a name="contacto" id="contacto">Contactos:</a>
+        <i class="fa-brands fa-instagram" id="instagram"></i>
+        <a href="https://www.instagram.com/programacodoacodo/" class="redes" id="ins">Instagram</a>
+        <i class="fa-brands fa-youtube" id="youtube"></i>
+        <a href="https://youtube.com/playlist?list=PLaE5OOpLpsOuOyxTKHGmt5EmsfFq4Qeyf&si=LuTsJxm2UaLTp1mq" class="redes" id="you">Youtube</a>
+    </footer>
+</body>
+</html>
