@@ -50,10 +50,11 @@ footer{
     text-decoration:overline;
     color: black;
     font-weight: 500;
-    
+    transition: all 1s ease-in-out;
 }
 .redes:hover{
     text-decoration:underline;
+    background-color: #E5C287;
 }
 #instagram{
     background-color: #E8751A;
